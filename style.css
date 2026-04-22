@@ -1,0 +1,27 @@
+*{
+    background-color: lightgrey;
+}
+
+.title-home {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.recipe-list-home {
+    list-style-position: inside;
+    text-align: center;
+    padding-right: 50px;
+}
+
+.bacon-wcc-h1 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+.bacon-img-container{
+    text-align: center;
+}
+
+h3 {
+    text-decoration: underline;
+}
