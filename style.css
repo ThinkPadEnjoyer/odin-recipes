@@ -1,3 +1,7 @@
+*, .body-bwcc, .body-home, .body-stb, .tmsp-body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .body-home, .body-bwcc { 
     background-color: lightgrey;
 }
@@ -24,6 +28,7 @@
 .body-bwcc h3, h1{
     text-decoration: underline;
 }
+
 /* I like minimalistic designs for pretty much everything, 
 but I dont feel its useful as a learning tool to try and do
 that here, so I am going to mix it up for the other two recipe
@@ -31,7 +36,7 @@ pages */
 
 /* following until next comment is only styling for Salmon Teriyaki Bowl*/
 
-.body-stb h1, h3{
+.body-stb h1, .body-stb h3{
     text-decoration: underline;
     color: red;
 }
@@ -81,4 +86,55 @@ pages */
     padding: 5px;
     border: 4px blue solid;
     margin: 1px;
+}
+
+/* End of CSS for STB page, beginning of sausage pasta CSS. */
+
+.tmsp-body h1{
+    text-align: center;
+    border: 4px lightgreen solid;
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
+}
+
+.tmsp-body h3{
+    text-decoration: underline;
+}
+
+.tmsp-description-img-container {
+    display: flex;
+    column-gap: 5px;
+}
+
+.description-tmsp {
+    border: 4px lightgreen solid;
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
+
+}
+
+.img-tmsp {
+    border: 4px lightgreen solid;
+    margin: 5px;
+}
+
+.ingredients-steps-tmsp-container {
+    display: flex;
+    font-size: 12px;
+}
+
+.ingredients-tmsp-container {
+    border: 4px lightgreen solid;
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
+}
+
+.steps-tmsp-container {
+    border: 4px lightgreen solid;
+    background-color: bisque;
+    margin: 5px;
+    padding: 5px;
 }
