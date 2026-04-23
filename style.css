@@ -33,4 +33,52 @@ pages */
 
 .body-stb h1, h3{
     text-decoration: underline;
+    color: red;
+}
+
+.body-stb h1{
+    text-align: center;
+    border: 3px blue solid;
+    background-color: black;
+}
+
+.description-stb-container {
+    background-color: black;
+    color: white;
+    border: 3px blue solid;
+    padding: 5px;
+}
+
+.body-stb img{
+    width: 200px;
+    border: 4px blue solid;
+    padding: 5px;
+    background-color: black;
+}
+
+.img-description-container{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space;
+}
+
+.ingredients-steps-stb-container{
+    display: flex;
+    column-gap: 10px;
+    justify-content: space;
+}
+
+.ingredients-stb-container {
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 4px blue solid;
+    margin: 1px;
+}
+.steps-stb-container{
+    background-color: black;
+    color: white;
+    padding: 5px;
+    border: 4px blue solid;
+    margin: 1px;
 }
